@@ -30,7 +30,7 @@ const postVerse = async () => {
 };
 
 new CronJob(
-  "15 8 * * *",
+  "0 8 * * *",
   async function () {
     verse = await fetchVerse();
     await postVerse();
