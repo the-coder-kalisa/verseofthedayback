@@ -1,0 +1,9 @@
+{
+  "name": "verseoftheday",
+  "version": "1.0.0",
+  "description": "verse of the day from the holy bible",
+  "main": "index.js",
+  "repository": "https://github.com/the-coder-kalisa/verseofthedayback",
+  "author": "Giovanni",
+  "license": "MIT"
+}
