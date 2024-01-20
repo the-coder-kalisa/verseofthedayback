@@ -33,7 +33,7 @@ new CronJob(
   "15 8 * * *",
   async function () {
     verse = await fetchVerse();
-    // await postVerse();
+    await postVerse();
   },
   null,
   true,
